@@ -47,6 +47,7 @@ export OPENAI_API_KEY="your-api-key"
 # Build and run
 mvn clean install
 run as Java Application -> DemoApplication.java
+```
 
 ## 📈 Performance Metrics
 
@@ -64,5 +65,4 @@ run as Java Application -> DemoApplication.java
 - **Enterprise-Level Error Handling**  
 - **Recruiter-Friendly Skill Mapping** 
 
-
-[![Tushar Sharma](https://img.shields.io/badge/Author-Tushar%20Sharma-blue)](https://linkedin.com/tusharsharmaa) 
+[![Tushar Sharma](https://img.shields.io/badge/Author-Tushar_Sharma-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tusharsharmaa)
