@@ -1,13 +1,15 @@
-from langchain_openai import ChatOpenAI 
+from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
 
 # Load .env from parent directory
-load_dotenv(dotenv_path='../.env')  # Uncommented and corrected
+load_dotenv(dotenv_path="../.env")  # Uncommented and corrected
 
 # Verify API key
-print("API Key Status:", "## Successfully Loaded API KEY ##" if os.getenv("OPENAI_API_KEY") else "Missing")
-
+print(
+    "API Key Status:",
+    "## Successfully Loaded API KEY ##" if os.getenv("OPENAI_API_KEY") else "Missing",
+)
 
 
 # Parameter	| Description
@@ -21,10 +23,7 @@ print("API Key Status:", "## Successfully Loaded API KEY ##" if os.getenv("OPENA
 # base_url ->	The URL of the API endpoint where requests are sent. This is typically provided by the model's provider and is necessary for directing your requests.
 # rate_limiter ->	An optional BaseRateLimiter to space out requests to avoid exceeding rate limits. See rate-limiting below for more details.
 # Initialize model with explicit API key
-llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
-    temperature=1
-)
+llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=1)
 # Generate response
 results = llm.invoke("What does Tushar Mean?")
 print(f"Output from Chat GPT:\n{results}")
