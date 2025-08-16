@@ -1,4 +1,4 @@
-##Deep Research Scoping with LangGraph Agents
+## Deep Research Scoping with LangGraph Agents
 This repository contains a Jupyter Notebook that demonstrates how to use LangGraph agents for deep research scoping. The notebook focuses on clarifying user queries, generating structured research briefs, and evaluating the results using LangSmith.
 ##Overview
 The notebook implements a multi-step process for research scoping:
@@ -15,4 +15,4 @@ The notebook implements a multi-step process for research scoping:
 * LLM-as-judge for evaluation.
 * Handling vague user inputs in research tasks.
 
-The notebook is based on a Colab file: Deep Research Scoping with Langgraph Agents.ipynb.
+> *The notebook is based on a Colab file: [LangChain Deep Research Agents](https://github.com/langchain-ai/deep_research_from_scratch/blob/main/notebooks/1_scoping.ipynb)*
