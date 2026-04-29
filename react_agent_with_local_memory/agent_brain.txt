@@ -1,0 +1,3 @@
+- User finds it valuable to understand when to use SQLite checkpointers versus React agents with file operations.
+- User finds it valuable to understand when to use SQLite checkpointers versus React agents with file operations.
+- User found value in understanding the usage of SQLite checkpointers versus React agents with file operations and discussed GraphState.
